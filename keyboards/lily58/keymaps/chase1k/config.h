@@ -21,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 /* VIAL UID for Lily58*/
-#define VIAL_KEYBOARD_UID {0x7E, 0xFD, 0xFC, 0x5B, 0x7D, 0x39, 0x48, 0x06}
+#define VIAL_KEYBOARD_UID {0x7E, 0xFD, 0xFC, 0x5B, 0x7D, 0x39, 0x48, 0x07}
 
 /* VIAL secure unlock keystroke - currently both big keys (typ. SPACE/ENTER) */
 #define VIAL_UNLOCK_COMBO_ROWS {4, 9}
@@ -47,3 +47,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 200
 #define PERMISSIVE_HOLD
+
+/* TPS43 Trackpad */
+#define AZOTEQ_IQS5XX_TPS43
+#define AZOTEQ_IQS5XX_SCROLL_ENABLE true
+#define SPLIT_POINTING_ENABLE
+#define POINTING_DEVICE_RIGHT
+#define POINTING_DEVICE_INVERT_X
+#define POINTING_DEVICE_INVERT_Y
+
